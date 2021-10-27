@@ -21,8 +21,8 @@ NOTE: Accuracy numbers listed here are taken from the Brevitas repo, and are not
 
 ## Train
 
-The training scripts for these models are located in the [Brevitas Repo](https://github.com/Xilinx/brevitas/tree/master/src/brevitas_examples/bnn_pynq)
+The training scripts for these models are located in the [Brevitas Repo](https://github.com/Xilinx/brevitas/tree/master/src/brevitas_examples/bnn_pynq).
 
 ## License
 
-Models are licensed under LICENSE.md within this directory
+Models are licensed under LICENSE.txt within this directory.
