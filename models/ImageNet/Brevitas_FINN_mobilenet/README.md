@@ -13,7 +13,7 @@ NOTE: Accuracy numbers listed here are taken from the Brevitas repo, and are not
 
 | Name           | Input quantization | Weight quantization | Activation quantization | Dataset  | Top1 accuracy | Top5 accuracy |
 |----------------|--------------------|---------------------|-------------------------|----------|---------------|---------------|
-| mobilenet_4W4A | 8 bit              | 4 bit               | 4 bit                   | ImageNet | 84.22%        | 90.10%        |
+| mobilenet_4W4A | 8 bit              | 4 bit               | 4 bit                   | ImageNet | 71.14%        | 90.10%        |
 
 ## Train
 
