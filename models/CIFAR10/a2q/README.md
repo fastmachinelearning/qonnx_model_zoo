@@ -11,6 +11,7 @@ All models are trained on the CIFAR10 dataset.
 Input images are normalized to have unit mean and variance.
 All residual connections are quantized to the specified activation bit width.
 
+NOTE: Accuracy numbers listed here are taken from the Brevitas repo, and are not verified running through QONNX at this time.
 
 | Model Name | Weight Quantization | Activation Quantization | Target Accumulator | Top-1 Accuracy (%) |
 |-----------------------------|----------------|---------------------|-------------------------|----------------------------|
