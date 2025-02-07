@@ -1,4 +1,4 @@
-# Keyword Spotting
+# UNSW-NB15 Cybersecurity Example
 
 This repo contains a QONNX model which can classify network packets as malicious or not. The model is trained on the [UNSW-NB15 datset](https://research.unsw.edu.au/projects/unsw-nb15-dataset). 
 The model is part of [finn-examples](https://github.com/Xilinx/finn-examples) and the [three-part FINN end2end tutorial](https://github.com/Xilinx/finn/tree/main/notebooks/end2end_example/cybersecurity). 
