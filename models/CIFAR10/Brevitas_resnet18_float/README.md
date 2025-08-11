@@ -23,8 +23,4 @@ This release includes a ResNet18 architecture with **8-bit weight and activation
 ## Train  
 
 Training scripts for the extended models are based on the Brevitas examples and are located in the  
-[extended Brevitas repo](https://github.com/nghielme/brevitas/tree/float_quant_exp/src/brevitas_examples/bnn_pynq).  
-
-## License  
-
-Models are licensed under `LICENSE.txt` within this directory.  
+[extended Brevitas repo](https://github.com/nghielme/brevitas/tree/float_quant_exp/src/brevitas_examples/bnn_pynq). 
