@@ -2,7 +2,22 @@
 
 This repo contains a variety of different, representative example models in the [Quantized ONNX](https://github.com/fastmachinelearning/qonnx) model format. 
 
-## Models
+## Model Zoo Overview
 
-Models are organized under their respective task/datset within the `models` directory. Licenses for models are either mentioned in their README, or have and included LICENSE file within their directory.
+| Model Name / Link | Dataset    | Accuracy / Top-1 | NN Topology     | Dominant Quantization              | More Details |
+|-------------------|-----------|------------------|-----------------|------------------------------------|--------------|
+| [kwsmlp_w3a3](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/GSCV2) | GSCV2      | 87.89%         | MLP        | int3 weights / int3 activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/GSCV2/README.md) |
+| [CNV_1W1A](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/GTSRB/Brevitas_CNV1W1A) | GTSRB      | 96.93%         | VGG10-like | bipolar weights / bipolar activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/GTSRB/Brevitas_CNV1W1A/README.md) |
+| [LFC_1W1A](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/MNIST/Brevitas_FINN_LFC) | MNIST      | 98.88%         | MLP | bipolar weights / bipolar activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/MNIST/Brevitas_FINN_LFC/README.md) |
+| [LFC_1W2A](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/MNIST/Brevitas_FINN_LFC) | MNIST      | 98.99%         | MLP | bipolar weights / int2 activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/MNIST/Brevitas_FINN_LFC/README.md) |
+| [mobilenet_4W4A](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/ImageNet/Brevitas_FINN_mobilenet) | ImageNet   | 71.14%         | MobileNet-v1         | int4 weights / int4 activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/ImageNet/Brevitas_FINN_mobilenet/README.md) |
+| [unsw_nb15_mlp_w2a2](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/UNSW_NB15) | UNSW-NB15  | 91.90%         | MLP         | int2 weights / int2 activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/UNSW_NB15/README.md) |
+| [quant_resnet18_w4a4_a2q_16b](https://github.com/fastmachinelearning/qonnx_model_zoo/releases/download/a2q-20240905/quant_resnet18_w4a4_a2q_16b-dint4fa990.onnx) | CIFAR10    | 94.2%          | ResNet-18           | int4 weights / uint4 activations (int16 accumulators) | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR10/a2q/README.md) |
+| [quant_resnet18_w4a4_a2q_1int4](https://github.com/fastmachinelearning/qonnx_model_zoo/releases/tag/a2q-20240905#:~:text=quant_resnet18_w4a4_a2q_1int4%2D563cf426.onnx) | CIFAR10    | 92.6%          | ResNet-18           | int4 weights / uint4 activations (int14 accumulators) | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR10/a2q/README.md) |
+| [ResNet-8](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/CIFAR100) | CIFAR100   | 70.12%         | ResNet-8            | int3 weights / int3 activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR100/README.md) |
+| [qkeras_jettagging](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/JetTagging) | LHC jets   | 76.2%          | MLP | 6b weights / 6b activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/JetTagging/README.md) |
+| [ResNet18 8w8a_e4m3](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/CIFAR10/Brevitas_resnet18_float) | CIFAR10    | 93.09%         | ResNet-18           | FP8 E4M3         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR10/Brevitas_resnet18_float/README.md) |
+| [ResNet18 5w5a_e3m1](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/CIFAR10/Brevitas_resnet18_float) | CIFAR10    | 90.69%         | ResNet-18           | FP5 E3M1         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR10/Brevitas_resnet18_float/README.md) |
 
+
+> **Note:** This table is incomplete. For a full list of models, see the [models directory](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models) on GitHub.
