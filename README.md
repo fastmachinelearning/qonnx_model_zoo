@@ -16,6 +16,7 @@ This repo contains a variety of different, representative example models in the 
 | [ResNet-8](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/CIFAR100) | CIFAR100   | 70.12%         | ResNet-8            | int3 weights / int3 activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR100/README.md) |
 | [qkeras_jettagging](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/JetTagging) | LHC jets   | 76.2%          | MLP | 6b weights / 6b activations         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/JetTagging/README.md) |
 | [ResNet18 8w8a_e4m3](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/CIFAR10/Brevitas_resnet18_float) | CIFAR10    | 93.09%         | ResNet-18           | FP8 E4M3         | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CIFAR10/Brevitas_resnet18_float/README.md) |
+| [CloudSatNet 4w4a](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models/CloudSatNet) | Landsat-8 EXSI | 93.54% | CNN | int4 weights / int4 activations | [README](https://github.com/fastmachinelearning/qonnx_model_zoo/blob/main/models/CloudSatNet/README.md) |
 
 
 > **Note:** This table is incomplete. For a full list of models, see the [models directory](https://github.com/fastmachinelearning/qonnx_model_zoo/tree/main/models) on GitHub.
